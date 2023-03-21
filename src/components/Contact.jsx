@@ -115,6 +115,7 @@ const Contact = () => {
           </label>
 
           <button
+          disabled
             type='submit'
             className='bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary'
           >
