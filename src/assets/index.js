@@ -1,5 +1,4 @@
 import logo from './logo.svg'
-import laravel from './laravel.png'
 import teamplayer from './teamplayer.png'
 import react from './react.png'
 import webdeveloper from './webdeveloper.png'
@@ -20,21 +19,18 @@ import javascript from './tech/javascript.png'
 import nodejs from './tech/nodejs.png'
 import reactjs from './tech/reactjs.png'
 
-import meta from './company/meta.png'
-import shopify from './company/shopify.png'
-import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
+import josefaobidos from './company/josefaobidos.png'
+import estg from './company/estg.jpg'
 
-import wineculture from './wineculture.jpg'
+import jobsapp from './jobsapp.jpeg'
 import fitnessapp from './fitnessapp.jpg'
 import portfoliov1 from './portfoliov1.jpg'
 
 export {
   logo,
   fitnessapp,
-  wineculture,
+  jobsapp,
   portfoliov1,
-  laravel,
   laravellogo,
   teamplayer,
   react,
@@ -53,8 +49,6 @@ export {
   javascript,
   nodejs,
   reactjs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  josefaobidos,
+  estg,
 }
