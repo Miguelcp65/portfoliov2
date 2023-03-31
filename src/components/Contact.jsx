@@ -62,15 +62,15 @@ const Contact = () => {
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <ToastContainer
-          toastStyle={{ backgroundColor: '#006666', color: '#b2d8d8' }}
-        />
+        toastStyle={{ backgroundColor: '#006666', color: '#b2d8d8' }}
+      />
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75]  p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-        
+
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -79,6 +79,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
+              required
               type='text'
               name='name'
               placeholder="Name"
@@ -90,6 +91,7 @@ const Contact = () => {
             <input
               type='email'
               name='email'
+              required
               placeholder="Email"
               className=' py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none bg-transparent border-solid border-2 border-white font-medium'
             />
@@ -97,6 +99,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
+              required
               rows={7}
               name='message'
               placeholder='Message'
@@ -108,7 +111,7 @@ const Contact = () => {
             type='submit'
             className='bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary'
           >
-             Send Message
+            Send Message
           </button>
         </form>
       </motion.div>
