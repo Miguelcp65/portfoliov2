@@ -1,83 +1,79 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const messagesent = () =>
+    toast.success('Message Sent!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    })
+  const messagenotsent = () =>
+    toast.error('An error has occurred!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    })
 
-  const [loading, setLoading] = useState(false);
-
-  const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
-
-    setForm({
-      ...form,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      .sendForm(
+        'service_njpxn0i',
+        'template_qmbncnn',
+        form.current,
+        'hOz1trmFG1wJrYz8j',
       )
       .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
+        (result) => {
+          console.log(result.text)
+          {
+            messagesent()
+          }
         },
         (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
-  };
+          messagenotsent()
+        },
+      )
+    e.target.reset()
+  }
 
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+      <ToastContainer
+          toastStyle={{ backgroundColor: '#006666', color: '#b2d8d8' }}
+        />
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75]  p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-
+        
         <form
-          ref={formRef}
-          onSubmit={handleSubmit}
+          ref={form}
+          onSubmit={sendEmail}
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
@@ -85,8 +81,6 @@ const Contact = () => {
             <input
               type='text'
               name='name'
-              value={form.name}
-              onChange={handleChange}
               placeholder="Name"
               className='bg-transparent border-solid border-2 border-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none font-medium'
             />
@@ -96,8 +90,6 @@ const Contact = () => {
             <input
               type='email'
               name='email'
-              value={form.email}
-              onChange={handleChange}
               placeholder="Email"
               className=' py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none bg-transparent border-solid border-2 border-white font-medium'
             />
@@ -107,19 +99,16 @@ const Contact = () => {
             <textarea
               rows={7}
               name='message'
-              value={form.message}
-              onChange={handleChange}
               placeholder='Message'
               className=' py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none bg-transparent border-solid border-2 border-whitefont-medium'
             />
           </label>
 
           <button
-          disabled
             type='submit'
             className='bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+             Send Message
           </button>
         </form>
       </motion.div>
