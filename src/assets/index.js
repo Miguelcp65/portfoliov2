@@ -17,6 +17,8 @@ import mysql from './tech/mysql.png'
 import html from './tech/html.png'
 import javascript from './tech/javascript.png'
 import nodejs from './tech/nodejs.png'
+import laravelicon from './laravelicon.png'
+
 import reactjs from './tech/reactjs.png'
 
 import josefaobidos from './company/josefaobidos.png'
@@ -25,6 +27,9 @@ import estg from './company/estg.jpg'
 import jobsapp from './jobsapp.jpeg'
 import fitnessapp from './fitnessapp.jpg'
 import portfoliov1 from './portfoliov1.jpg'
+import footballapp from './footballapp.jpeg'
+import cookandshare from './cookandshare.jpg'
+import wineculture from './wineculture.jpg'
 
 export {
   logo,
@@ -51,4 +56,8 @@ export {
   reactjs,
   josefaobidos,
   estg,
+  footballapp,
+  cookandshare,
+  wineculture,
+  laravelicon
 }

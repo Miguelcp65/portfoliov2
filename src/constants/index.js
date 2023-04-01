@@ -18,20 +18,24 @@ import {
   jobsapp,
   mysql,
   expressjs,
+  footballapp,
+  cookandshare,
+  wineculture,
+  laravelicon
 } from '../assets'
 
 const services = [
   {
-    title: 'Web/Mobile Developer',
+    title: 'Web Developer',
     icon: webdeveloper,
   },
   {
-    title: 'React Developer',
+    title: 'React',
     icon: react,
   },
   {
-    title: 'React Native Developer',
-    icon: react,
+    title: 'Laravel',
+    icon: laravelicon,
   },
   {
     title: 'Team Player',
@@ -182,8 +186,8 @@ const projects = [
     demo_link: 'https://portfolio-v1-gilt-six.vercel.app/',
   },
   {
-    name: 'Jobsapp',
-    description: 'A Mobile Aplication that shows some jobs.',
+    name: 'Jobs App',
+    description: 'A Mobile Aplication for people looking for a job.',
     tags: [
       {
         name: 'React Native',
@@ -192,6 +196,45 @@ const projects = [
     ],
     image: jobsapp,
     source_code_link: 'https://github.com/Miguelcp65/JobsApp',
+    demo_link: '#',
+  },
+  {
+    name: 'Football App',
+    description: 'A Mobile Aplication of football matches.',
+    tags: [
+      {
+        name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: footballapp,
+    source_code_link: 'https://github.com/Miguelcp65/footballapp',
+    demo_link: '#',
+  },
+  {
+    name: 'WineCulture',
+    description: 'A Web Aplication of wine production in Portugal.',
+    tags: [
+      {
+        name: 'Laravel',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: wineculture,
+    source_code_link: 'https://github.com/Miguelcp65/WineCulture',
+    demo_link: '#',
+  },
+  {
+    name: 'CookandShare',
+    description: 'A Web Aplication for sharing cooking recipes',
+    tags: [
+      {
+        name: 'PHP',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: cookandshare,
+    source_code_link: 'https://github.com/Miguelcp65/cookandshare',
     demo_link: '#',
   },
 ]
