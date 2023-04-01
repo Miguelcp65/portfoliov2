@@ -200,7 +200,7 @@ const projects = [
   },
   {
     name: 'Football App',
-    description: 'A Mobile Aplication of football matches.',
+    description: 'A Mobile Aplication of football matches results.',
     tags: [
       {
         name: 'React Native',
@@ -226,7 +226,7 @@ const projects = [
   },
   {
     name: 'Cookandshare',
-    description: 'A Web Aplication for sharing cooking recipes',
+    description: 'A Web Aplication for sharing cooking recipes online',
     tags: [
       {
         name: 'PHP',
