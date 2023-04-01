@@ -225,7 +225,7 @@ const projects = [
     demo_link: '#',
   },
   {
-    name: 'CookandShare',
+    name: 'Cookandshare',
     description: 'A Web Aplication for sharing cooking recipes',
     tags: [
       {
