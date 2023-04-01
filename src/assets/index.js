@@ -28,7 +28,7 @@ import jobsapp from './jobsapp.jpeg'
 import fitnessapp from './fitnessapp.jpg'
 import portfoliov1 from './portfoliov1.jpg'
 import footballapp from './footballapp.jpeg'
-import cookandshare from './cookandshare.jpg'
+import cookandshare from './cooknshare.jpg.jpg'
 import wineculture from './wineculture.jpg'
 
 export {
