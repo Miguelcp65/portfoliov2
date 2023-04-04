@@ -30,6 +30,7 @@ import portfoliov1 from './portfoliov1.jpg'
 import footballapp from './footballapp.jpeg'
 import cookandshare from './cooknshare.jpg'
 import wineculture from './wineculture.jpg'
+import myteam from './myteam.jpg'
 
 export {
   logo,
@@ -59,5 +60,6 @@ export {
   footballapp,
   cookandshare,
   wineculture,
-  laravelicon
+  laravelicon,
+  myteam
 }
