@@ -238,27 +238,6 @@ const projects = [
     source_code_link: 'https://github.com/Miguelcp65/cookandshare',
     demo_link: '#',
   },
-  {
-    name: 'MyTeam',
-    description: 'A Web App for the whole management of a football team',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'expressjs',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: myteam,
-    source_code_link: '#',
-    demo_link: '#',
-  },
 ]
 
 export { services, technologies, experiences, testimonials, projects }
