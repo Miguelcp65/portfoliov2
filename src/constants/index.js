@@ -39,8 +39,8 @@ const services = [
     icon: laravelicon,
   },
   {
-    title: 'Team Player',
-    icon: teamplayer,
+    title: 'React Native',
+    icon: react,
   },
 ]
 
