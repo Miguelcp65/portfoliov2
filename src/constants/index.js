@@ -27,7 +27,7 @@ import {
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Web/Mobile Developer',
     icon: webdeveloper,
   },
   {
