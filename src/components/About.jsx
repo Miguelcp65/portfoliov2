@@ -54,9 +54,9 @@ const About = () => {
         Development, being this the area that I intend to professionalize
         myself.
       </motion.p>
-      <div style={{ marginTop: 15 }} className='ctaabout'>
-        <a href={CVPT} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10, marginRight: 10 }} download className='btn'>CV(PT)</a>
-        <a href={CVENG} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10 }} download className='btn'>CV(ENG)</a>
+      <div style={{ marginTop: 15, display: "block" }} className='ctaabout'>
+        <a href={CVPT} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10, marginRight: 10 }} download className='btn'>Portuguese CV</a>
+        <a href={CVENG} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10 }} download className='btn'>English CV</a>
       </div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

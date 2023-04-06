@@ -35,18 +35,6 @@
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-.ctaabout {
-  display: none
-}
-@media (max-width: 460px) {
-  .ctahero {
-    display: none
-  }
-  .ctaabout {
-    display: block
-  }
-}
 .blue-gradient {
   background: #66b2b2;
   background: linear-gradient(-90deg, #66b2b2 0%, rgba(60, 51, 80, 0) 100%);

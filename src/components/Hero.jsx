@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { CVPT } from '../assets/index'
-import { CVENG } from '../assets/index'
 
 const Hero = () => {
   return (
@@ -22,10 +20,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Developer
           </p>
-          <div style={{ marginTop: 15 }} className="ctahero">
-            <a href={CVPT} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 5, marginRight: 10 }} download className='btn'>Download CV(PT)</a>
-            <a href={CVENG} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 5 }} download className='btn'>Download CV(ENG)</a>
-          </div>
         </div>
       </div>
       <ComputersCanvas />
