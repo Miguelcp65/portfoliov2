@@ -6,6 +6,8 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from '../utils/motion'
+import { CVPT } from '../assets/index'
+import { CVENG } from '../assets/index'
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -49,10 +51,13 @@ const About = () => {
       >
         As a young adult studying a dregree in Computer Science and Engineering,
         I have ambition to acquire more knowledge in the area of Web
-        ​​Development, being this the area that I intend to professionalize
+        Development, being this the area that I intend to professionalize
         myself.
       </motion.p>
-
+      <div style={{ marginTop: 15 }} className='ctaabout'>
+        <a href={CVPT} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10, marginRight: 10 }} download className='btn'>CV(PT)</a>
+        <a href={CVENG} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10 }} download className='btn'>CV(ENG)</a>
+      </div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

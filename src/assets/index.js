@@ -32,6 +32,9 @@ import cookandshare from './cooknshare.jpg'
 import wineculture from './wineculture.jpg'
 import myteam from './myteam.jpg'
 
+import CVPT from './CVPT.pdf'
+import CVENG from './CVENG.pdf'
+
 export {
   logo,
   fitnessapp,
@@ -61,5 +64,7 @@ export {
   cookandshare,
   wineculture,
   laravelicon,
-  myteam
+  myteam,
+  CVPT,
+  CVENG
 }
