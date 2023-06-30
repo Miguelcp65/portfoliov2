@@ -129,7 +129,7 @@ const experiences = [
 
 const projects = [
   {
-    name: 'Abakos',
+    name: 'Abakos (In Progress)',
     description:
       'A Mobile App about simulators and finance.',
     tags: [
