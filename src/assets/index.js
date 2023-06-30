@@ -31,7 +31,7 @@ import footballapp from './footballapp.jpeg'
 import cookandshare from './cooknshare.jpg'
 import wineculture from './wineculture.jpg'
 import myteam from './myteam.jpg'
-import abakos from './abakos.jpg'
+import abakos from './abakoss.jpg'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
