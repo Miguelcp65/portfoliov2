@@ -22,13 +22,17 @@ import {
   cookandshare,
   wineculture,
   laravelicon,
-  myteam
+  abakos
 } from '../assets'
 
 const services = [
   {
-    title: 'Web/Mobile Developer',
+    title: 'Software Developer',
     icon: webdeveloper,
+  },
+  {
+    title: 'React Native',
+    icon: react,
   },
   {
     title: 'React',
@@ -37,10 +41,6 @@ const services = [
   {
     title: 'Laravel',
     icon: laravelicon,
-  },
-  {
-    title: 'React Native',
-    icon: react,
   },
 ]
 
@@ -127,34 +127,47 @@ const experiences = [
   },
 ]
 
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  },
-]
-
 const projects = [
+  {
+    name: 'Abakos',
+    description:
+      'A Mobile App about simulators and finance.',
+    tags: [
+      {
+        name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: abakos,
+    source_code_link: 'https://github.com/Miguelcp65/Abakos',
+    demo_link: '#',
+  },
+  {
+    name: 'Jobs App',
+    description: 'A Mobile Aplication for people looking for a job.',
+    tags: [
+      {
+        name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: jobsapp,
+    source_code_link: 'https://github.com/Miguelcp65/JobsApp',
+    demo_link: '#',
+  },
+  {
+    name: 'Football App',
+    description: 'A Mobile Aplication of football matches results.',
+    tags: [
+      {
+        name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: footballapp,
+    source_code_link: 'https://github.com/Miguelcp65/footballapp',
+    demo_link: '#',
+  },
   {
     name: 'Fitness App',
     description:
@@ -187,32 +200,6 @@ const projects = [
     demo_link: 'https://portfolio-v1-gilt-six.vercel.app/',
   },
   {
-    name: 'Jobs App',
-    description: 'A Mobile Aplication for people looking for a job.',
-    tags: [
-      {
-        name: 'React Native',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: jobsapp,
-    source_code_link: 'https://github.com/Miguelcp65/JobsApp',
-    demo_link: '#',
-  },
-  {
-    name: 'Football App',
-    description: 'A Mobile Aplication of football matches results.',
-    tags: [
-      {
-        name: 'React Native',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: footballapp,
-    source_code_link: 'https://github.com/Miguelcp65/footballapp',
-    demo_link: '#',
-  },
-  {
     name: 'WineCulture',
     description: 'A Web Aplication of wine production in Portugal.',
     tags: [
@@ -240,4 +227,4 @@ const projects = [
   },
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, projects }

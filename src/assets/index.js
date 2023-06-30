@@ -31,6 +31,7 @@ import footballapp from './footballapp.jpeg'
 import cookandshare from './cooknshare.jpg'
 import wineculture from './wineculture.jpg'
 import myteam from './myteam.jpg'
+import abakos from './abakos.jpg'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
@@ -66,5 +67,6 @@ export {
   laravelicon,
   myteam,
   CVPT,
-  CVENG
+  CVENG,
+  abakos
 }
