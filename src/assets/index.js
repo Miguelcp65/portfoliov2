@@ -32,6 +32,7 @@ import cookandshare from './cooknshare.jpg'
 import wineculture from './wineculture.jpg'
 import myteam from './myteam.jpg'
 import abakos from './abakoss.jpg'
+import clockApp from './clockApp.jpg'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
@@ -68,5 +69,6 @@ export {
   myteam,
   CVPT,
   CVENG,
-  abakos
+  abakos,
+  clockApp
 }

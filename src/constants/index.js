@@ -22,7 +22,8 @@ import {
   cookandshare,
   wineculture,
   laravelicon,
-  abakos
+  abakos,
+  clockApp
 } from '../assets'
 
 const services = [
@@ -131,7 +132,7 @@ const projects = [
   {
     name: 'Abakos (In Progress)',
     description:
-      'A Mobile App about simulators and finance.',
+      'A mobile app with multiple tools to assist financial decisions.',
     tags: [
       {
         name: 'React Native',
@@ -140,6 +141,20 @@ const projects = [
     ],
     image: abakos,
     source_code_link: 'https://github.com/Miguelcp65/Abakos',
+    demo_link: '#',
+  },
+  {
+    name: 'clockApp',
+    description:
+      'A simple mobile app that display the current date and time.',
+    tags: [
+      {
+        name: 'Kotlin',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: clockApp,
+    source_code_link: 'https://github.com/Miguelcp65/ClockApp',
     demo_link: '#',
   },
   {
