@@ -18,6 +18,8 @@ import html from './tech/html.png'
 import javascript from './tech/javascript.png'
 import nodejs from './tech/nodejs.png'
 import laravelicon from './laravelicon.png'
+import kotlinIcon from './kotlin.png'
+import kotlin from './tech/Kotlin.png'
 
 import reactjs from './tech/reactjs.png'
 
@@ -70,5 +72,7 @@ export {
   CVPT,
   CVENG,
   abakos,
-  clockApp
+  clockApp,
+  kotlinIcon,
+  kotlin
 }

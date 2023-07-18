@@ -23,7 +23,9 @@ import {
   wineculture,
   laravelicon,
   abakos,
-  clockApp
+  clockApp,
+  kotlinIcon,
+  kotlin
 } from '../assets'
 
 const services = [
@@ -35,13 +37,14 @@ const services = [
     title: 'React Native',
     icon: react,
   },
+
+  {
+    title: 'Kotlin',
+    icon: kotlinIcon,
+  },
   {
     title: 'React',
     icon: react,
-  },
-  {
-    title: 'Laravel',
-    icon: laravelicon,
   },
 ]
 
@@ -71,6 +74,14 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: 'Kotlin',
+    icon: kotlin,
+  },
+  {
+    name: 'React Native',
+    icon: reactjs,
+  },
+  {
     name: 'MySQL',
     icon: mysql,
   },
@@ -90,6 +101,7 @@ const technologies = [
     name: 'Express JS',
     icon: expressjs,
   },
+  
 ]
 
 const experiences = [
