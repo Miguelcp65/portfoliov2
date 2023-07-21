@@ -25,7 +25,8 @@ import {
   abakos,
   clockApp,
   kotlinIcon,
-  kotlin
+  kotlin,
+  listtelf
 } from '../assets'
 
 const services = [
@@ -153,6 +154,20 @@ const projects = [
     ],
     image: abakos,
     source_code_link: 'https://github.com/Miguelcp65/Abakos',
+    demo_link: '#',
+  },
+  {
+    name: 'Lista Telefónica',
+    description:
+      'A simple mobile app that display some contacts stored on a database.',
+    tags: [
+      {
+        name: 'Kotlin',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: listtelf,
+    source_code_link: 'https://github.com/Miguelcp65/ListaTelefonica',
     demo_link: '#',
   },
   {
