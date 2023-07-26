@@ -50,7 +50,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         As a young adult studying a dregree in Computer Science and Engineering,
-        I have ambition to acquire more knowledge in the area of Web and Mobile
+        I have ambition to acquire more knowledge in the area of Software
         Development, being this the area that I intend to professionalize
         myself.
       </motion.p>

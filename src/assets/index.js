@@ -1,7 +1,7 @@
 import logo from './logo.svg'
 import teamplayer from './teamplayer.png'
 import react from './react.png'
-import webdeveloper from './webdeveloper.png'
+import softwaredeveloper from './softwaredeveloper.png'
 import github from './github.png'
 import demo from './demo.png'
 import menu from './menu.svg'
@@ -37,6 +37,9 @@ import abakos from './abakoss.jpg'
 import clockApp from './clockApp.jpg'
 import listtelf from './listtelf.jpg'
 import carshowcase from './carshowcase.jpg'
+import nextjs from './nextjs.png'
+import tailwind from './tailwind.png'
+import nextjslogo from './nextjslogo.png'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
@@ -49,7 +52,7 @@ export {
   laravellogo,
   teamplayer,
   react,
-  webdeveloper,
+  softwaredeveloper,
   github,
   demo,
   materialui,
@@ -78,5 +81,8 @@ export {
   kotlinIcon,
   kotlin,
   listtelf,
-  carshowcase
+  carshowcase,
+  nextjs,
+  tailwind,
+  nextjslogo
 }

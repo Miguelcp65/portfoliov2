@@ -1,7 +1,7 @@
 import {
   react,
   teamplayer,
-  webdeveloper,
+  softwaredeveloper,
   javascript,
   html,
   css,
@@ -17,36 +17,36 @@ import {
   fitnessapp,
   jobsapp,
   mysql,
-  expressjs,
   footballapp,
   cookandshare,
   wineculture,
-  laravelicon,
   abakos,
   clockApp,
   kotlinIcon,
   kotlin,
   listtelf,
-  carshowcase
+  carshowcase,
+  nextjs,
+  tailwind,
+  nextjslogo
 } from '../assets'
 
 const services = [
   {
     title: 'Software Developer',
-    icon: webdeveloper,
+    icon: softwaredeveloper,
+  },
+  {
+    title: 'React',
+    icon: react,
   },
   {
     title: 'React Native',
     icon: react,
   },
-
   {
-    title: 'Kotlin',
-    icon: kotlinIcon,
-  },
-  {
-    title: 'React',
-    icon: react,
+    title: 'Nextjs',
+    icon: nextjs,
   },
 ]
 
@@ -60,19 +60,20 @@ const technologies = [
     icon: css,
   },
   {
-    name: 'Bootstrap',
-    icon: bootstrap,
-  },
-  {
-    name: 'Material UI',
-    icon: materialui,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
+
   {
     name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'Nextjs',
+    icon: nextjslogo,
+  },
+  {
+    name: 'React Native',
     icon: reactjs,
   },
   {
@@ -80,8 +81,8 @@ const technologies = [
     icon: kotlin,
   },
   {
-    name: 'React Native',
-    icon: reactjs,
+    name: 'Tailwind',
+    icon: tailwind,
   },
   {
     name: 'MySQL',
@@ -94,14 +95,6 @@ const technologies = [
   {
     name: 'Laravel',
     icon: laravellogo,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Express JS',
-    icon: expressjs,
   },
 
 ]
@@ -181,34 +174,6 @@ const projects = [
     demo_link: 'https://car-showcase-dun.vercel.app/',
   },
   {
-    name: 'Lista Telefónica',
-    description:
-      'A simple mobile app that display some contacts stored on a database.',
-    tags: [
-      {
-        name: 'Kotlin',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: listtelf,
-    source_code_link: 'https://github.com/Miguelcp65/ListaTelefonica',
-    demo_link: '#',
-  },
-  {
-    name: 'clockApp',
-    description:
-      'A simple mobile app that display the current date and time.',
-    tags: [
-      {
-        name: 'Kotlin',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: clockApp,
-    source_code_link: 'https://github.com/Miguelcp65/ClockApp',
-    demo_link: '#',
-  },
-  {
     name: 'Jobs App',
     description: 'A Mobile Aplication for people looking for a job.',
     tags: [
@@ -219,23 +184,6 @@ const projects = [
     ],
     image: jobsapp,
     source_code_link: 'https://github.com/Miguelcp65/JobsApp',
-    demo_link: '#',
-  },
-  {
-    name: 'Football App',
-    description: 'A Mobile Aplication of football matches results.',
-    tags: [
-      {
-        name: 'React Native',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'TypeScript',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: footballapp,
-    source_code_link: 'https://github.com/Miguelcp65/footballapp',
     demo_link: '#',
   },
   {
@@ -269,6 +217,53 @@ const projects = [
     source_code_link: 'https://github.com/Miguelcp65/Portfolio',
     demo_link: 'https://portfolio-v1-gilt-six.vercel.app/',
   },
+  {
+    name: 'Football App',
+    description: 'A Mobile Aplication of football matches results.',
+    tags: [
+      {
+        name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: footballapp,
+    source_code_link: 'https://github.com/Miguelcp65/footballapp',
+    demo_link: '#',
+  },
+
+  {
+    name: 'clockApp',
+    description:
+      'A simple mobile app that display the current date and time.',
+    tags: [
+      {
+        name: 'Kotlin',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: clockApp,
+    source_code_link: 'https://github.com/Miguelcp65/ClockApp',
+    demo_link: '#',
+  },
+  {
+    name: 'Lista Telefónica',
+    description:
+      'A simple mobile app that display some contacts stored on a database.',
+    tags: [
+      {
+        name: 'Kotlin',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: listtelf,
+    source_code_link: 'https://github.com/Miguelcp65/ListaTelefonica',
+    demo_link: '#',
+  },
+
   {
     name: 'WineCulture',
     description: 'A Web Aplication of wine production in Portugal.',
