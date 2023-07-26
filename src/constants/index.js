@@ -163,13 +163,14 @@ const projects = [
       'A simple web app that display some car with Nextjs.',
     tags: [
       {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
         name: 'Nextjs',
         color: 'blue-text-gradient',
       },
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+
       {
         name: 'Tailwind',
         color: 'green-text-gradient',
@@ -226,6 +227,10 @@ const projects = [
     tags: [
       {
         name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
         color: 'blue-text-gradient',
       },
     ],
