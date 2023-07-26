@@ -27,7 +27,7 @@ import {
   listtelf,
   carshowcase,
   nextjs,
-  tailwind,
+  tailwindicon,
   nextjslogo
 } from '../assets'
 
@@ -82,7 +82,7 @@ const technologies = [
   },
   {
     name: 'Tailwind',
-    icon: tailwind,
+    icon: tailwindicon,
   },
   {
     name: 'MySQL',

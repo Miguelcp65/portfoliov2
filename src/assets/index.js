@@ -38,7 +38,7 @@ import clockApp from './clockApp.jpg'
 import listtelf from './listtelf.jpg'
 import carshowcase from './carshowcase.jpg'
 import nextjs from './nextjs.png'
-import tailwind from './tailwind.png'
+import tailwindicon from './tailwindicon.png'
 import nextjslogo from './nextjslogo.png'
 
 import CVPT from './CVPT.pdf'
@@ -83,6 +83,6 @@ export {
   listtelf,
   carshowcase,
   nextjs,
-  tailwind,
+  tailwindicon,
   nextjslogo
 }
