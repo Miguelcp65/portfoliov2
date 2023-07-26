@@ -36,6 +36,7 @@ import myteam from './myteam.jpg'
 import abakos from './abakoss.jpg'
 import clockApp from './clockApp.jpg'
 import listtelf from './listtelf.jpg'
+import carshowcase from './carshowcase.jpg'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
@@ -76,5 +77,6 @@ export {
   clockApp,
   kotlinIcon,
   kotlin,
-  listtelf
+  listtelf,
+  carshowcase
 }

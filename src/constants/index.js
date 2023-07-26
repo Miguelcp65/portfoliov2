@@ -26,7 +26,8 @@ import {
   clockApp,
   kotlinIcon,
   kotlin,
-  listtelf
+  listtelf,
+  carshowcase
 } from '../assets'
 
 const services = [
@@ -102,7 +103,7 @@ const technologies = [
     name: 'Express JS',
     icon: expressjs,
   },
-  
+
 ]
 
 const experiences = [
@@ -155,6 +156,28 @@ const projects = [
     image: abakos,
     source_code_link: 'https://github.com/Miguelcp65/Abakos',
     demo_link: '#',
+  },
+  {
+    name: 'Car ShowCase',
+    description:
+      'A simple web app that display some car with Nextjs.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: carshowcase,
+    source_code_link: 'https://github.com/Miguelcp65/CarShowcase',
+    demo_link: 'https://car-showcase-dun.vercel.app/',
   },
   {
     name: 'Lista Telefónica',
@@ -216,7 +239,7 @@ const projects = [
       'Website that allows users to search for gym exercises with specific details.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
@@ -233,7 +256,7 @@ const projects = [
     description: 'The first version of my website Portfolio showcase.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient',
       },
     ],
