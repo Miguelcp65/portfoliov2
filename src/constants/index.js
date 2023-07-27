@@ -28,7 +28,8 @@ import {
   carshowcase,
   nextjs,
   tailwindicon,
-  nextjslogo
+  nextjslogo,
+  projectshare
 } from '../assets'
 
 const services = [
@@ -149,6 +150,40 @@ const projects = [
     image: abakos,
     source_code_link: 'https://github.com/Miguelcp65/Abakos',
     demo_link: '#',
+  },
+  {
+    name: 'Flexibble',
+    description:
+      'A simple web app to share projects.',
+    tags: [
+      {
+        name: 'Nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'JWT',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Graphql',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Grafbase',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: projectshare,
+    source_code_link: 'https://github.com/Miguelcp65/project_share',
+    demo_link: 'https://project-share.vercel.app/',
   },
   {
     name: 'Car ShowCase',
@@ -279,7 +314,7 @@ const projects = [
   },
   {
     name: 'Cookandshare',
-    description: 'A Web Aplication for sharing cooking recipes online',
+    description: 'A Web Aplication for sharing cooking recipes online.',
     tags: [
       {
         name: 'PHP',

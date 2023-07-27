@@ -40,6 +40,7 @@ import carshowcase from './carshowcase.jpg'
 import nextjs from './nextjs.png'
 import tailwindicon from './tailwindicon.png'
 import nextjslogo from './nextjslogo.png'
+import projectshare from './projectshare.jpg'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
@@ -84,5 +85,6 @@ export {
   carshowcase,
   nextjs,
   tailwindicon,
-  nextjslogo
+  nextjslogo,
+  projectshare
 }
