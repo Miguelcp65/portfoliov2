@@ -41,6 +41,7 @@ import nextjs from './nextjs.png'
 import tailwindicon from './tailwindicon.png'
 import nextjslogo from './nextjslogo.png'
 import projectshare from './projectshare.jpg'
+import vintagestore from './vintagestore.jpg'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
@@ -86,5 +87,6 @@ export {
   nextjs,
   tailwindicon,
   nextjslogo,
-  projectshare
+  projectshare,
+  vintagestore
 }

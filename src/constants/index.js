@@ -29,7 +29,8 @@ import {
   nextjs,
   tailwindicon,
   nextjslogo,
-  projectshare
+  projectshare,
+  vintagestore
 } from '../assets'
 
 const services = [
@@ -137,6 +138,32 @@ const experiences = [
 ]
 
 const projects = [
+  {
+    name: 'Vintage (In Progress)',
+    description:
+      'A website that shows products from the admin dashboard (CMS)',
+    tags: [
+      {
+        name: 'Nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Prisma',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: vintagestore,
+    source_code_link: 'https://github.com/Miguelcp65/vintagestore',
+    demo_link: '#',
+  },
   {
     name: 'Abakos (In Progress)',
     description:
