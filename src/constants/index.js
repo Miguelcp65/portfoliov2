@@ -5,7 +5,6 @@ import {
     javascript,
     html,
     css,
-    bootstrap,
     php,
     laravellogo,
     reactjs,
