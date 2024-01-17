@@ -49,7 +49,10 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a young adult studying a dregree in Computer Science and Engineering,
+        As a young adult studying a dregree in Computer Science and Engineering and working as a Software Developer at
+
+
+            <a href="https://vendus.pt/" target="_blank" rel="noopener noreferrer" style={{ color: '#3293f1', fontWeight : 'bold' }}> Vendus</a>, I have been able to develop my skills in the area of Software Development,
         I have ambition to acquire more knowledge in the area of Software
         Development, being this the area that I intend to professionalize
         myself.
