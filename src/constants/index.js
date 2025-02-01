@@ -32,7 +32,8 @@ import {
     sass2,
     ionic,
     projectshare,
-    vintagestore
+    vintagestore,
+    cegid
 } from '../assets'
 
 const services = [
@@ -129,17 +130,12 @@ const experiences = [
         ],
     },
     {
-        title: 'Degree in Computer Science',
-        company_name: 'Instituto Politécnico de Leiria (ESTG)',
-        icon: estg,
+        title: 'Software Developer',
+        company_name: 'Cegid vendus',
+        icon: cegid,
         iconBg: '#383E56',
-        date: 'September 2021 - present',
-        points: [
-            'Developing and maintaining web applications using React.js and other related technologies.',
-            'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-            'Implementing responsive design and ensuring cross-browser compatibility.',
-            'Participating in code reviews and providing constructive feedback to other developers.',
-        ],
+        date: 'September 2023 - present',
+        points: [],
     },
 ]
 

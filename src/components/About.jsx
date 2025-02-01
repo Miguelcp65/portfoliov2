@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a young adult studying a dregree in Computer Science and Engineering and working as a Software Developer at
+        As a young adult working as a Software Developer at
 
 
             <a href="https://vendus.pt/" target="_blank" rel="noopener noreferrer" style={{ color: '#3293f1', fontWeight : 'bold' }}> Vendus</a>, I have been able to develop my skills in the area of Software Development,
@@ -57,11 +57,11 @@ const About = () => {
         Development, being this the area that I intend to professionalize
         myself.
       </motion.p>
-      <div style={{ marginTop: 15, display: "block" }} className='ctaabout'>
+   {/*    <div style={{ marginTop: 15, display: "block" }} className='ctaabout'>
         <a href={CVPT} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10, marginRight: 10 }} download className='btn'>Portuguese CV</a>
         <a href={CVENG} style={{ background: "#b2d8d8", color: "#004c4d", padding: 10, borderRadius: 10 }} download className='btn'>English CV</a>
-      </div>
-      <div className="mt-20 flex flex-wrap gap-10">
+      </div> */}
+      <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

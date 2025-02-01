@@ -44,11 +44,13 @@ import tailwindicon from './tailwindicon.png'
 import nextjslogo from './nextjslogo.png'
 import projectshare from './projectshare.jpg'
 import vintagestore from './vintagestore.jpg'
+import cegid from './cegid.png'
 
 import CVPT from './CVPT.pdf'
 import CVENG from './CVENG.pdf'
 
 export {
+    cegid,
     logo,
     fitnessapp,
     jobsapp,
